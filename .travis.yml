@@ -1,7 +1,7 @@
 sudo: required
 dist: trusty
 before_install:
-  - sudo apt-get install -qq pkg-config fuse
+  - sudo apt-get install -qq pkg-config fuse libfuse-dev
   - sudo modprobe fuse
   - sudo chmod 666 /dev/fuse
   - sudo chown root:$USER /etc/fuse.conf

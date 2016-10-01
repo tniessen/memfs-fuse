@@ -1,7 +1,7 @@
 
 CC=gcc
 CFLAGS=-g -Wall -D_FILE_OFFSET_BITS=64
-LDFLAGS=-L~/fuse-2.9.5/lib/ -lfuse
+LDFLAGS=-lfuse
 
 OBJ=memfs.o node.o dir.o
 
